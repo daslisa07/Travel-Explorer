@@ -1,0 +1,40 @@
+nav {
+  height: 100px;
+  background: black;
+  color: white;
+  display: flex;
+
+}
+
+.logo-container, .links-container {
+  width: 50%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: left;
+  align-items: center; /* corrected from align-content */
+  padding: 5px;
+  color: white;
+}
+
+span {
+  color: blue; /* corrected selector */
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.links-container > a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px; /* corrected property name */
+}
+
+.logo1 {
+  color: white;
+}

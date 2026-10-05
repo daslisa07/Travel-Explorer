@@ -1,0 +1,30 @@
+
+.places{
+	display: flex;
+	gap: 20px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	background:paleturquoise;
+	padding: 20px;
+	border-radius: 20px;
+	width: 400px;
+	height: 500px;
+}
+.card-img img{
+	width: 100%;
+	border-radius:20px;
+}
+.know-more-btn{
+	width: 150px;
+	height: 50px;
+	background: blue;
+	color: white;
+	border-radius: 50px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+}
